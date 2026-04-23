@@ -1,0 +1,6 @@
+com/smartcampus/api/model/Sensor.class
+com/smartcampus/api/Main.class
+com/smartcampus/api/model/SensorReading.class
+com/smartcampus/api/AppConfig.class
+com/smartcampus/api/model/Room.class
+com/smartcampus/api/resource/RoomResource.class
