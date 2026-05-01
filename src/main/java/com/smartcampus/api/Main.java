@@ -12,7 +12,7 @@ import java.net.URI;
 
 public class Main {
 
-    public static final String BASE_URI = "http://localhost:8080/";
+    public static final String BASE_URI = "http://localhost:8080/api/v1";
 
     public static HttpServer startServer() {
         return GrizzlyHttpServerFactory.createHttpServer(
@@ -22,7 +22,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        HttpServer server = startServer();
-        System.out.println("Server started at " + BASE_URI + "api/v1");
+        startServer();
+        System.out.println("Server started at " + BASE_URI);
     }
 }
